@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Add Product | FurniCraft</title>
+
+    <link rel="stylesheet" href="../css/admin.css">
+
+</head>
+
+<body>
+
+<div class="admin-layout">
+
+    <aside class="sidebar">
+
+        <h2>FurniCraft</h2>
+
+        <p>Admin Panel</p>
+
+        <a href="dashboard.html">Dashboard</a>
+
+        <a href="products.html" class="admin-active">Products</a>
+
+        <a href="orders.html">Orders</a>
+
+        <a href="users.html">Users</a>
+
+        <a href="#">Categories</a>
+
+        <a href="#">Reports</a>
+
+        <a href="#">Settings</a>
+
+        <a href="../index.html">Logout</a>
+
+    </aside>
+
+
+    <main class="admin-main">
+
+        <header class="admin-header">
+
+            <h2>Add / Edit Product</h2>
+
+            <span>Admin</span>
+
+        </header>
+
+
+        <section class="admin-content">
+
+            <div class="page-heading">
+
+                <div>
+
+                    <h1>Add New Product</h1>
+
+                    <p>Enter product information below.</p>
+
+                </div>
+
+            </div>
+
+
+            <div class="product-form">
+
+                <div class="image-upload">
+
+                    <h3>Product Image</h3>
+
+                    <div class="image-placeholder">
+                        Product Image
+                    </div>
+
+                    <button class="admin-button">
+                        Upload Image
+                    </button>
+
+                </div>
+
+
+                <div class="form-fields">
+
+                    <label>Product Name</label>
+
+                    <input type="text" placeholder="Enter product name">
+
+
+                    <label>Category</label>
+
+                    <select>
+
+                        <option>Select Category</option>
+
+                        <option>Living Room</option>
+
+                        <option>Bedroom</option>
+
+                        <option>Dining</option>
+
+                        <option>Office</option>
+
+                    </select>
+
+
+                    <div class="form-row">
+
+                        <div>
+
+                            <label>Price</label>
+
+                            <input type="text" placeholder="₹ Price">
+
+                        </div>
+
+                        <div>
+
+                            <label>Quantity</label>
+
+                            <input type="text" placeholder="Stock quantity">
+
+                        </div>
+
+                    </div>
+
+
+                    <label>Status</label>
+
+                    <select>
+
+                        <option>Active</option>
+
+                        <option>Inactive</option>
+
+                    </select>
+
+
+                    <label>Description</label>
+
+                    <textarea placeholder="Enter product description"></textarea>
+
+
+                    <div class="form-row">
+
+                        <div>
+
+                            <label>Material</label>
+
+                            <input type="text" placeholder="Material">
+
+                        </div>
+
+                        <div>
+
+                            <label>Color</label>
+
+                            <input type="text" placeholder="Color">
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-buttons">
+
+                        <button class="cancel-button">
+                            Cancel
+                        </button>
+
+                        <button class="admin-button">
+                            Save Product
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</div>
+
+</body>
+
+</html>
