@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Product Details | FurniCraft</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+<div class="top-bar">
+    🚚 Free Shipping on Orders Above ₹999 | Summer Sale - Up to 40% OFF
+</div>
+
+<header>
+
+    <div class="logo">
+        <h2>FurniCraft</h2>
+    </div>
+
+    <div class="search-box">
+
+        <input type="text" placeholder="Search furniture...">
+
+        <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+
+    </div>
+
+    <div class="header-icons">
+
+        <a href="wishlist.html" title="Wishlist">
+            <i class="fa-regular fa-heart"></i>
+        </a>
+
+        <a href="cart.html" title="Cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+        </a>
+
+        <a href="login.html">
+            Login
+        </a>
+
+    </div>
+
+</header>
+
+<nav>
+
+    <ul>
+
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="shop.html" class="active">Shop</a></li>
+        <li><a href="categories.html">Categories</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+
+    </ul>
+
+</nav>
+
+<section class="product-details">
+
+    <div class="product-gallery">
+
+        <img class="main-product-image" id="product-image"
+            src="../images/products/product5.jpg"
+            alt="Product">
+
+        <div class="product-thumbnails">
+
+            <img id="thumbnail-1" src="../images/products/product5.jpg" alt="Product">
+
+            <img id="thumbnail-2" src="../images/products/product6.jpg" alt="Product">
+
+            <img id="thumbnail-3" src="../images/products/product7.jpg" alt="Product">
+
+        </div>
+
+    </div>
+
+    <div class="product-information">
+
+        <p class="product-category" id="product-category">
+            Living Room
+        </p>
+
+        <h1 id="product-name">Luxury Sofa</h1>
+
+        <div class="rating">
+            <span id="product-rating">★★★★★</span>
+            <span id="review-count">(124 Reviews)</span>
+        </div>
+
+        <h2 id="product-price">₹24,999</h2>
+
+        <p class="product-description" id="product-short-description">
+            A premium modern furniture piece designed to provide comfort,
+            elegance and style to your home.
+        </p>
+
+        <div class="product-features">
+
+            <p>✔ Free Delivery</p>
+            <p>✔ 2 Years Warranty</p>
+            <p>✔ 30 Days Easy Return</p>
+
+        </div>
+
+        <div class="quantity">
+
+            <label>Quantity:</label>
+
+            <button type="button" id="decrease-quantity">-</button>
+
+            <span id="product-quantity">1</span>
+
+            <button type="button" id="increase-quantity">+</button>
+
+        </div>
+
+        <div class="product-buttons">
+
+            <button type="button" id="add-detail-cart">Add To Cart</button>
+
+            <button type="button" id="buy-now">Buy Now</button>
+
+        </div>
+
+        <button type="button" class="wishlist-button" id="add-wishlist">
+            ♡ Add To Wishlist
+        </button>
+
+    </div>
+
+</section>
+
+<section class="product-description-section">
+
+    <h2>Product Description</h2>
+
+    <p id="product-full-description">
+        This furniture piece combines modern design with comfortable use.
+        It is suitable for modern homes and everyday living.
+    </p>
+
+</section>
+
+<section class="specifications">
+
+    <h2>Product Specifications</h2>
+
+    <div class="specification-container">
+
+        <div>
+            <strong>Material</strong>
+            <p id="product-material">Premium Wood</p>
+        </div>
+
+        <div>
+            <strong>Color</strong>
+            <p id="product-color">Brown</p>
+        </div>
+
+        <div>
+            <strong>Dimensions</strong>
+            <p id="product-dimensions">220 × 90 × 85 cm</p>
+        </div>
+
+        <div>
+            <strong>Warranty</strong>
+            <p id="product-warranty">2 Years</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="related-products">
+
+    <h2>You May Also Like</h2>
+
+    <div class="product-container">
+
+        <div class="product-card">
+
+            <img src="../images/products/product6.jpg">
+            <h3>Wooden Chair</h3>
+            <p>₹5,999</p>
+            <a href="product-details.html?id=2" class="view-button">View Details</a>
+
+        </div>
+
+        <div class="product-card">
+
+            <img src="../images/products/product9.jpg">
+            <h3>Coffee Table</h3>
+            <p>₹8,499</p>
+            <a href="product-details.html?id=5" class="view-button">View Details</a>
+
+        </div>
+
+        <div class="product-card">
+
+            <img src="../images/products/product8.jpg">
+            <h3>Dining Table</h3>
+            <p>₹18,999</p>
+            <a href="product-details.html?id=4" class="view-button">View Details</a>
+
+        </div>
+
+        <div class="product-card">
+
+            <img src="../images/products/product14.jpg">
+            <h3>Recliner Chair</h3>
+            <p>₹19,999</p>
+            <a href="product-details.html?id=10" class="view-button">View Details</a>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <h2>FurniCraft</h2>
+
+    <p>Crafting Comfort For Every Home.</p>
+    <p>Email : support@furnicraft.com</p>
+    <p>Phone : +91 98765 43210</p>
+    <p>© 2026 FurniCraft. All Rights Reserved.</p>
+
+</footer>
+
+<script src="../js/script.js"></script>
+
+</body>
+
+</html>
